@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form survey</title>
+    <link rel="stylesheet" href="survey.css" />
+  </head>
+  <body>
+
+<section class="header">
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">PT. Apis Pais Bersinergi</h1>
+        <h2>Formulir Asuransi Kesehatan Mental</h2>
+        <h3 id="description" class="description text-center">
+          Karena kesehatan mental adalah hak setiap manusia
+        </h3>
+          </header>
+    </div>
+    </section>
+      <section class="formm">
+      <form id="survey-form">
+        <div class="identitas">
+        <div class="form-group">
+          <label id="name-label" for="name">Nama</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="siapa nama kamu"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="apa email kamu?"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number">Umur</label>
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="10"
+            max="99"
+            class="form-control"
+            placeholder="berapa umur kamu?"
+          />
+        </div>
+      
+      <div class="form-group">
+          <h3>Bagaimana hari kamu?</h3>
+          <select id="dropdown" name="kabar" class="form-control" required>
+            <option disabled selected value>hari ini...</option>
+            <option value="sangatbaik">Sangat Baik</option>
+            <option value="baik">Baik</option>
+            <option value="biasaaja">Biasa Aja</option>
+            <option value="buruk">Buruk</option>
+            <option value="sangatburuk">Sangat Buruk</option>
+          </select>
+        </div>
+      </div>
+<div  class="afeksi">
+        <div class="form-group">
+          <p>Apakah kamu sedang merasa tertekan?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Sudah Pasti</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />Bisa Jadi Sih</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Tidaaa</label
+          >
+
+          <label
+          ><input
+            name="user-recommend"
+            value="no"
+            type="radio"
+            class="input-radio"
+          />Engga Bangat</label
+        </div>
+
+        <div class="form-group">
+          <p>Apakah kamu sedang merasa khawatir?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Sudah Pasti</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />Bisa Jadi Sih</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Tidaaa</label
+          >
+
+          <label
+          ><input
+            name="user-recommend"
+            value="no"
+            type="radio"
+            class="input-radio"
+          />Engga Bangat</label
+        </div>
+
+        <div class="form-group">
+          <p>Apakah kamu sedang merasa cemas?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Sudah Pasti</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />Bisa Jadi Sih</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Tidaaa</label
+          >
+
+          <label
+          ><input
+            name="user-recommend"
+            value="no"
+            type="radio"
+            class="input-radio"
+          />Engga Bangat</label
+        </div>
+
+        <div class="form-group">
+          <p>Apakah kamu sedang merasa insecure?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Sudah Pasti</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />Bisa Jadi Sih</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Tidaaa</label
+          >
+
+          <label
+          ><input
+            name="user-recommend"
+            value="no"
+            type="radio"
+            class="input-radio"
+          />Engga Bangat</label
+        </div>
+
+        <div class="form-group">
+          <p>Apakah kamu sedang merasa tak berharga?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Sudah Pasti</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />Bisa Jadi Sih</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Tidaaa</label
+          >
+
+          <label
+          ><input
+            name="user-recommend"
+            value="no"
+            type="radio"
+            class="input-radio"
+          />Engga Bangat</label
+        </div>
+      </div>
+        
+
+        <div class="form-group">
+          <p>
+            Siapa tokoh psikologi yang kamu sukai?
+            <span class="clue">(boleh pilih salah satu)</span>
+          </p>
+
+          <label
+            ><input
+              name="prefer"
+              value="sigmund-freud"
+              type="checkbox"
+              class="input-checkbox"
+            />Sigmund Freud</label
+          >
+          <label>
+            <input
+              name="prefer"
+              value="carl-jung"
+              type="checkbox"
+              class="input-checkbox"
+            />Carl Jung</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="alfred-adler"
+              type="checkbox"
+              class="input-checkbox"
+            />Alfred Adler</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="abraham-maslow"
+              type="checkbox"
+              class="input-checkbox"
+            />Abraham Maslow</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="albert-bandura"
+              type="checkbox"
+              class="input-checkbox"
+            />Albert Bandura</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="erik-erikson"
+              type="checkbox"
+              class="input-checkbox"
+            />Erik Erikson</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="carl-rogers"
+              type="checkbox"
+              class="input-checkbox"
+            />Carl Rogers</label
+          >
+          <label
+            ><input
+              name="ivan-pavlov"
+              value="city-meetups"
+              type="checkbox"
+              class="input-checkbox"
+            />Ivan Pavlov</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="jean-piaget"
+              type="checkbox"
+              class="input-checkbox"
+            />Jean Piaget</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="wilhelm-wundt"
+              type="checkbox"
+              class="input-checkbox"
+            />Wilhelm Wundt</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="jahja-umar"
+              type="checkbox"
+              class="input-checkbox"
+            />Jahja Umar</label
+          >
+        </div>
+        <div  class="stress">
+        <div class="form-group">
+          <p>Seberapa stress kamu hari ini?</p>
+          <select id="most-like" name="mostLike" class="form-control" required>
+            <option disabled selected value>pilih tingkat stress kamoooo</option>
+            <option value="sangat">Sangat</option>
+            <option value="parah">Parah</option>
+            <option value="aseli">Aseli</option>
+            <option value="gila">Gila</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>Ada cerita apa hari ini?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Cerita disini yaa ..."
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Gasssssssss!
+          </button>
+        </div>
+      </div>
+      </form>
+    </section>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
