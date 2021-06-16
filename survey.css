@@ -15,32 +15,20 @@ body {
 }
 
 .identitas {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
   margin: 0 10% 0 10%;
   padding: 10px;
   align-items: center;
-
-  height: 100px;
 }
 
 .afeksi {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
   text-align: center;
 }
 
 .stress {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
   margin: 10px;
   padding: 10px;
   width: auto;
   height: 100px;
-  align-items: center;
 }
 
 #dropdown {
@@ -57,7 +45,10 @@ p {
 }
 
 .formm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   background-color: turquoise;
-  margin: 50px;
-  border-radius: 30px;
+  padding: 50px;
+  margin: 10px;
 }
